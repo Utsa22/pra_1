@@ -1,0 +1,467 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(image/Hackers\ siphon\ millions\ in\ cryptocurrency\ from\ dForce\ exchange.jpg);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.containerr{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: orange;
+    cursor: pointer;
+}
+.containerr:hover{
+    color: red;
+}
+.logo1{
+    width: 100%;
+}
+._2ndpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left{
+    margin-left: 200px;
+    line-height: 2;
+    font-weight: 700;
+}
+.h4{
+    color: orange;
+}
+.h1{
+    color: white;
+    font-style: italic;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mid{
+    padding: 10px 15%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.service{
+    display: flex;
+    justify-content: center !important;
+    gap: 60px;
+}
+.service-card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px ;
+    padding: 10px 15px;
+}
+.service2{
+    display: flex;
+    justify-content: center !important;
+    gap: 60px;
+}
+.service-card2{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px ;
+    padding: 10px 15px;
+}
+.img{
+    width: 250px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banneer-left{
+    margin-top: 50px;
+}
+.teli{
+    margin-top: 20px;
+    width: 100px;
+}
+.h{
+    line-height: 2.5;
+}
+.mid-u{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    gap: 100px;
+    background-color: gainsboro;
+}
+.midu{
+    width: 100px;
+}
+.l-btn{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color:aqua;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.h1-btn{
+    margin-bottom: 20px;
+}
+.h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.security-manager {
+    text-align: center;
+}
+
+.security-manager .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.security-manager .jobs-notifications input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.learn-more ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.learn-more ul li {
+    margin: 10px 0;
+}
+
+.learn-more h2, .security-manager h2 {
+    color: #FFA500;
+}
+
+.learn-more.address .office-address {
+    margin-bottom: 20px;
+}
+
+.learn-more.address .office-address p {
+    margin: 5px 0;
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width:767px){
+    body{
+        background-color: rgb(119, 85, 85);
+    }
+    .services{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 760px) and (max-width: 992px){
+    body{
+        background-color: rgb(109, 109, 130);
+    }
+    .title{
+        color: white;
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(image/Hackers\ siphon\ millions\ in\ cryptocurrency\ from\ dForce\ exchange.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.containerr {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: orange;
+    cursor: pointer;
+}
+
+.containerr:hover {
+    color: red;
+}
+
+.logo1 {
+    width: 100%;
+}
+
+._2ndpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left {
+    margin-left: 200px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.h4 {
+    color: orange;
+}
+
+.h1 {
+    color: white;
+    font-style: italic;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mid {
+    padding: 10px 15%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.service {
+    display: flex;
+    justify-content: center !important;
+    gap: 60px;
+}
+
+.service-card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 15px;
+}
+
+.service2 {
+    display: flex;
+    justify-content: center !important;
+    gap: 60px;
+}
+
+.service-card2 {
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 15px;
+}
+
+.img {
+    width: 250px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banneer-left {
+    margin-top: 50px;
+}
+
+.teli {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.h {
+    line-height: 2.5;
+}
+
+.mid-u {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    gap: 100px;
+    background-color: gainsboro;
+}
+
+.midu {
+    width: 100px;
+}
+
+.l-btn {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.h1-btn {
+    margin-bottom: 20px;
+}
+
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.security-manager {
+    text-align: center;
+}
+
+.security-manager .icon img {
+    width: 50px;
+    height: 50px;
+}
+.off{
+    color: #FFA500;
+}
+
+.jobs-p{
+    width: 90%;
+    color: #FFA500;
+}
+
+.security-manager .jobs-notifications input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.learn-more ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.learn-more ul li {
+    margin: 10px 0;
+}
+
+.learn-more h2, .security-manager h2 {
+    color: #FFA500;
+}
+
+.learn-more .office-address {
+    margin-bottom: 20px;
+}
+
+.learn-more .office-address p {
+    margin: 5px 0;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    body {
+        background-color: rgb(119, 85, 85);
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 992px) {
+    body {
+        background-color: rgb(109, 109, 130);
+    }
+    .title {
+        color: white;
+    }
+}
